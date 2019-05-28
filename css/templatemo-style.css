@@ -59,9 +59,9 @@ video::-webkit-media-controls {
 .primary-button a:hover {
   background-color: transparent;
   border: 1px solid rgba(255, 187, 5, 0.8);
-  -webkit-transition: all 0.2s linear;
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
+  -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
 }
 
@@ -117,13 +117,17 @@ video::-webkit-media-controls {
 /* @media only screen and (min-width: 768px) {
   .cd-hero-slider {
   }
-} */
-/* @media only screen and (min-width: 1170px) {
+}
+@media only screen and (min-width: 1170px) {
   .cd-hero-slider {
   }
 } */
 
 .cd-slider-nav {
+  /* @TODO: sticky? */
+  /* position: sticky; */
+  /* top: 0; */
+  /* z-index: 3; */
   text-align: center;
 }
 
@@ -178,8 +182,8 @@ video::-webkit-media-controls {
 }
 
 .content {
-  margin-bottom: 100px;
-  margin-top: -80px;
+  /* margin-bottom: 100px; */
+  /* margin-top: -80px; */
   background-color: #fff;
   border-top: 15px solid rgba(255, 187, 5, 0.8);
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
@@ -217,7 +221,7 @@ video::-webkit-media-controls {
 
 .heading {
   text-align: center;
-  margin-bottom: 180px;
+  margin-bottom: 70px;
 }
 
 .heading h1 {
@@ -238,7 +242,7 @@ video::-webkit-media-controls {
 }
 
 .first-content h4 {
-  font-size: 19px;
+  font-size: 25px;
   text-transform: uppercase;
   color: #121212;
   letter-spacing: 1px;
@@ -307,7 +311,7 @@ video::-webkit-media-controls {
 }
 
 .second-slide .right-about-text h4 {
-  font-size: 19px;
+  font-size: 25px;
   color: #121212;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -326,7 +330,7 @@ video::-webkit-media-controls {
 }
 
 .second-slide .left-about-text h4 {
-  font-size: 19px;
+  font-size: 25px;
   color: #121212;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -386,7 +390,7 @@ video::-webkit-media-controls {
 }
 
 .third-content .right-feature-text h4 {
-  font-size: 19px;
+  font-size: 25px;
   color: #121212;
   text-transform: uppercase;
   letter-spacing: 1px;
@@ -696,10 +700,10 @@ footer a {
   }
 
   .content {
-    margin-bottom: 100px;
-    margin-top: -100px;
+    /* margin-bottom: 100px; */
+    /* margin-top: -100px; */
     background-color: #fff;
-    border-top: 15px solid rgba(255, 187, 5, 0.8);
+    /* border-top: 15px solid rgba(255, 187, 5, 0.8); */
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
   }
 
