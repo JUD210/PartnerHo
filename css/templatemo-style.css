@@ -12,7 +12,7 @@ body {
 
 p {
   font-size: 14px;
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.95);
   font-weight: 300;
   line-height: 25px;
 }
@@ -47,7 +47,7 @@ video::-webkit-media-controls {
 
 .primary-button a {
   display: inline-block;
-  background-color: rgba(255, 187, 5, 0.8);
+  background-color: rgba(255, 187, 5, 0.2);
   color: #343434;
   font-size: 13px;
   padding: 12px 18px;
@@ -58,7 +58,7 @@ video::-webkit-media-controls {
 
 .primary-button a:hover {
   background-color: transparent;
-  border: 1px solid rgba(255, 187, 5, 0.8);
+  border: 1px solid rgba(255, 187, 5, 0.2);
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
@@ -155,7 +155,7 @@ video::-webkit-media-controls {
 }
 
 .cd-slider-nav ul .selected h6 {
-  color: rgba(255, 187, 5, 0.8);
+  color: rgba(255, 187, 5, 1);
   text-decoration: none;
 }
 
@@ -170,11 +170,15 @@ video::-webkit-media-controls {
   text-align: center;
   margin: 0px;
   padding: 0px;
-  background-color: rgba(255, 187, 5, 0.8);
+  background-color: rgba(255, 187, 5, 0.2);
+}
+
+.cd-slider-nav .selected .image-icon {
+  background-color: rgba(255, 187, 5, 0.9);
 }
 
 .cd-slider-nav .image-icon:hover {
-  background-color: #fff;
+  background-color: rgba(255, 187, 5, 1);
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
@@ -185,7 +189,7 @@ video::-webkit-media-controls {
   margin-bottom: 50px;
   /* margin-top: -80px; */
   background-color: rgba(0, 0, 0, 0.4);
-  border-top: 15px solid rgba(255, 187, 5, 0.8);
+  border-top: 2px solid rgba(255, 187, 5, 1);
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
 }
 
@@ -236,7 +240,7 @@ video::-webkit-media-controls {
 .heading span {
   font-size: 16px;
   text-transform: uppercase;
-  color: rgba(255, 187, 5, 0.8);
+  color: rgba(255, 187, 5, 1);
   font-weight: 300;
   letter-spacing: 0.5px;
 }
@@ -245,7 +249,7 @@ video::-webkit-media-controls {
   font-size: 25px;
   text-transform: uppercase;
   /* color: #121212; */
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.95);
   letter-spacing: 1px;
   margin-top: 0px;
   margin-bottom: 30px;
@@ -287,7 +291,7 @@ video::-webkit-media-controls {
 .second-slide .heading span {
   font-size: 16px;
   text-transform: uppercase;
-  color: rgba(255, 187, 5, 0.8);
+  color: rgba(255, 187, 5, 1);
   font-weight: 300;
   letter-spacing: 0.5px;
 }
@@ -314,7 +318,7 @@ video::-webkit-media-controls {
 .second-slide .right-about-text h4 {
   font-size: 25px;
   /* color: #121212; */
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.95);
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 30px;
@@ -334,7 +338,7 @@ video::-webkit-media-controls {
 .second-slide .left-about-text h4 {
   font-size: 25px;
   /* color: #121212; */
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.95);
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 30px;
@@ -369,7 +373,7 @@ video::-webkit-media-controls {
 .third-slide .heading span {
   font-size: 16px;
   text-transform: uppercase;
-  color: rgba(255, 187, 5, 0.8);
+  color: rgba(255, 187, 5, 1);
   font-weight: 300;
   letter-spacing: 0.5px;
 }
@@ -395,7 +399,7 @@ video::-webkit-media-controls {
 .third-content .right-feature-text h4 {
   font-size: 25px;
   /* color: #121212; */
-  color: rgba(255, 255, 255, 1);
+  color: rgba(255, 255, 255, 0.95);
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-top: 30px;
@@ -405,7 +409,7 @@ video::-webkit-media-controls {
 .third-content .right-feature-text h4 em {
   font-style: normal;
   font-weight: 700;
-  color: rgba(255, 187, 5, 0.8);
+  color: rgba(255, 187, 5, 0.2);
 }
 
 .third-content .feature-list {
@@ -449,7 +453,7 @@ video::-webkit-media-controls {
 .fourth-slide .heading span {
   font-size: 16px;
   text-transform: uppercase;
-  color: rgba(255, 187, 5, 0.8);
+  color: rgba(255, 187, 5, 1);
   font-weight: 300;
   letter-spacing: 0.5px;
 }
@@ -491,7 +495,7 @@ video::-webkit-media-controls {
 .fivth-slide .heading span {
   font-size: 16px;
   text-transform: uppercase;
-  color: rgba(255, 187, 5, 0.8);
+  color: rgba(255, 187, 5, 1);
   font-weight: 300;
   letter-spacing: 0.5px;
 }
@@ -528,7 +532,7 @@ video::-webkit-media-controls {
 }
 
 .fivth-content .left-info i:hover {
-  background-color: rgba(255, 187, 5, 0.8);
+  background-color: rgba(255, 187, 5, 0.2);
   -moz-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
   -webkit-transition: all 0.3s linear;
@@ -581,7 +585,7 @@ video::-webkit-media-controls {
 
 .fivth-content button {
   display: inline-block;
-  background-color: rgba(255, 187, 5, 0.8);
+  background-color: rgba(255, 187, 5, 0.2);
   color: #343434;
   font-size: 13px;
   padding: 12px 18px;
@@ -593,7 +597,7 @@ video::-webkit-media-controls {
 
 .fivth-content button:hover {
   background-color: transparent;
-  border: 1px solid rgba(255, 187, 5, 0.8);
+  border: 1px solid rgba(255, 187, 5, 0.2);
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
@@ -607,7 +611,7 @@ video::-webkit-media-controls {
 */
 
 footer {
-  background-color: rgba(255, 187, 5, 0.8);
+  background-color: rgba(255, 187, 5, 0.9);
   position: relative;
   width: 100%;
   bottom: 0;
@@ -617,20 +621,20 @@ footer {
 
 footer p {
   font-size: 13px;
-  color: #343434;
+  color: #141414;
   margin: 0px;
-  padding: 25px 0px;
+  padding: 10px 0px;
   text-align: center;
   font-weight: 400;
 }
 
 footer p em {
   font-style: normal;
-  font-weight: 500;
+  font-weight: 900;
 }
 
 footer a {
-  color: #343434;
+  color: #141414;
 }
 
 /*
@@ -655,6 +659,7 @@ footer a {
   }
 
   .cd-slider-nav ul .selected img {
+    /* background-color: black; */
     border-bottom: 3px solid #fff;
     padding-bottom: 10px;
     -moz-transition: all 0.2s linear;
@@ -671,7 +676,7 @@ footer a {
   }
 
   .cd-slider-nav {
-    background-color: rgba(255, 187, 5, 0.8);
+    background-color: rgba(255, 187, 5, 0.2);
     width: 100%;
     height: 80px;
     line-height: 80px;
@@ -707,7 +712,7 @@ footer a {
     margin-bottom: 50px;
     /* margin-top: -100px; */
     background-color: rgba(0, 0, 0, 0.4);
-    border-top: 15px solid rgba(255, 187, 5, 0.8);
+    /* border-top: 15px solid rgba(255, 187, 5, 0.2); */
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
   }
 
