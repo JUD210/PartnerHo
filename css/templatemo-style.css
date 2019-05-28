@@ -7,7 +7,7 @@ http://www.templatemo.com/tm-503-newline
 */
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Jeju Gothic", "Montserrat", sans-serif;
 }
 
 p {
@@ -184,7 +184,7 @@ video::-webkit-media-controls {
 .content {
   margin-bottom: 50px;
   /* margin-top: -80px; */
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.4);
   border-top: 15px solid rgba(255, 187, 5, 0.8);
   box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
 }
@@ -706,7 +706,7 @@ footer a {
   .content {
     margin-bottom: 50px;
     /* margin-top: -100px; */
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.4);
     border-top: 15px solid rgba(255, 187, 5, 0.8);
     box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
   }
