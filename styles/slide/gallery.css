@@ -1,0 +1,24 @@
+/*
+=======================
+----- GALLERY SLIDE ----
+=======================
+*/
+
+.gallery-slide {
+  text-align: center;
+  /* background-color: #fff; */
+  width: 100%;
+}
+
+.gallery-content {
+  padding: 15px 30px;
+}
+
+.gallery-content .project-item {
+  margin: 15px 0px;
+}
+
+.gallery-content img {
+  width: 100%;
+  overflow: hidden;
+}
