@@ -19,7 +19,6 @@
     <link rel="stylesheet" href="style/vendor/bootstrap.min.css" />
 
     <link rel="stylesheet" href="style/all.css" />
-    <link rel="stylesheet" href="style/responsive.css" />
 
     <link rel="stylesheet" href="style/lightbox.css" />
     <link rel="stylesheet" href="style/cd_hero_slider.css" />
@@ -44,53 +43,28 @@
 
     <section class="cd-hero">
       <div class="cd-slider-nav">
-        <nav>
-          <span class="cd-marker item-1"></span>
-          <ul>
-            <li class="selected">
-              <a href="#"
-                ><div class="image-icon"><img src="img/home-icon.png" /></div>
-                <h6>인삿말</h6></a
-              >
-            </li>
-            <li>
-              <a href="#"
-                ><div class="image-icon">
-                  <img src="img/projects-icon.png" />
-                </div>
-                <h6>조황</h6></a
-              >
-            </li>
-            <li>
-              <a href="#"
-                ><div class="image-icon">
-                  <img src="img/contact-icon.png" />
-                </div>
-                <h6>예약 및 문의</h6></a
-              >
-            </li>
-          </ul>
-        </nav>
+        <div id="nav"></div>
       </div>
 
       <ul class="cd-hero-slider">
-        <li class="selected"><div id="slide-welcome"></div></li>
-        <li><div id="slide-gallery"></div></li>
-        <li><div id="slide-contact"></div></li>
+        <li class="selected">
+          <div id="slide-welcome"></div>
+        </li>
+        <li>
+          <div id="slide-gallery"></div>
+        </li>
+        <li>
+          <div id="slide-contact"></div>
+        </li>
       </ul>
     </section>
 
     <footer>
-      <p>
-        <strong>Copyright &copy; 2019 파트너호 All rights reserved</strong
-        ><br />This website is designed by
-        <a href="https://www.youtube.com/channel/UCYPWzViA-uq9sBop7ssYaEg"
-          ><em>잉혁킹</em></a
-        >
-      </p>
+      <div id="footer"></div>
     </footer>
 
-    <!-- js -->
+    <!--!--------------- js ----------------->
+
     <script
       src="https://code.jquery.com/jquery-3.2.1.min.js"
       integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
@@ -102,12 +76,11 @@
       crossorigin="anonymous"
     ></script>
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
-    
+
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
 
     <!-- for HTML Source File Importer (Ref. Code Snippet) -->
-
     <script type="text/javascript">
       $(document).ready(function() {
         // Ready the document to import multiple HTMLs.
@@ -117,6 +90,8 @@
         $("#slide-gallery").load("html/slide/gallery.html")
         $("#slide-contact").load("html/slide/contact.html")
 
+        $("#nav").load("html/nav.html")
+        $("#footer").load("html/footer.html")
         // You can import a html like this.
         // <div id='content1-navbar'></div>
         // <div id='content1-navbar_ul'></div>
