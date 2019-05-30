@@ -48,13 +48,15 @@
 
       <ul class="cd-hero-slider">
         <li class="selected">
-          <div id="slide-welcome"></div>
+          <div id="welcome-slide-loader"></div>
         </li>
+
         <li>
-          <div id="slide-gallery"></div>
+          <div id="gallery-slide-loader"></div>
         </li>
+
         <li>
-          <div id="slide-contact"></div>
+          <div id="contact-slide-loader"></div>
         </li>
       </ul>
     </section>
@@ -86,9 +88,9 @@
         // Ready the document to import multiple HTMLs.
         // ex) $('#content1-navbar').load('content1/navbar.html');
         // ex) $('#content1-navbar_ul').load('content1/navbar.html #navbar_ul');
-        $("#slide-welcome").load("html/slide/welcome.html")
-        $("#slide-gallery").load("html/slide/gallery.html")
-        $("#slide-contact").load("html/slide/contact.html")
+        $("#welcome-slide-loader").load("html/slide/welcome.html")
+        $("#gallery-slide-loader").load("html/slide/gallery.html")
+        $("#contact-slide-loader").load("html/slide/contact.html")
 
         $("#nav").load("html/nav.html")
         $("#footer").load("html/footer.html")

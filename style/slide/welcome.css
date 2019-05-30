@@ -3,10 +3,17 @@
 }
 
 .welcome-slide {
-  /* background-color: rgba(255,255,255,0.5); */
   width: 100%;
 }
 
+.welcome-content {
+  padding: 60px 0px;
+}
+
+.welcome-content img {
+  width: 100%;
+  padding: 0px 5% 60px 5%;
+}
 
 .welcome-content h4 {
   font-size: 35px;
@@ -15,10 +22,6 @@
   letter-spacing: 1px;
   margin-top: 0px;
   margin-bottom: 30px;
-}
-
-.welcome-content {
-  padding: 60px 0px;
 }
 
 .welcome-content p {
