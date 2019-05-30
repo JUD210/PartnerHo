@@ -11,7 +11,8 @@ footer p {
   font-size: 13px;
   color: #141414;
   margin: 0px;
-  padding: 10px 0px;
+  padding: 5px 0px;
+  line-height: 20px;
   text-align: center;
   font-weight: 400;
 }
@@ -22,5 +23,9 @@ footer p em {
 }
 
 footer a {
-  color: #141414;
+  color: darkblue;
+}
+
+footer a:hover {
+  color: blue;
 }
