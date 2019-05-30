@@ -1,0 +1,26 @@
+footer {
+  background-color: rgba(255, 187, 5, 0.9);
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  z-index: 2;
+  margin-top: -1px;
+}
+
+footer p {
+  font-size: 13px;
+  color: #141414;
+  margin: 0px;
+  padding: 10px 0px;
+  text-align: center;
+  font-weight: 400;
+}
+
+footer p em {
+  font-style: normal;
+  font-weight: 900;
+}
+
+footer a {
+  color: #141414;
+}

@@ -1,35 +1,28 @@
-
-/*
-=======================
------ FIVTH SLIDE ----
-=======================
-*/
-
-.fivth-slide {
+.contact-slide {
   text-align: center;
   /* background-color: #fff; */
   width: 100%;
 }
 
-.fivth-content {
+.contact-content {
   padding: 30px;
   text-align: left;
 }
 
-.fivth-content .left-info em {
+.contact-content .left-info em {
   font-weight: 500;
 }
 
-.fivth-content .left-info .social-icons {
+.contact-content .left-info .social-icons {
   margin-top: 60px;
 }
 
-.fivth-content .left-info ul {
+.contact-content .left-info ul {
   padding: 0;
   margin: 0;
 }
 
-.fivth-content .left-info i {
+.contact-content .left-info i {
   margin-right: 10px;
   color: #fff;
   font-size: 15px;
@@ -42,7 +35,7 @@
   line-height: 34px;
 }
 
-.fivth-content .left-info i:hover {
+.contact-content .left-info i:hover {
   background-color: rgba(255, 187, 5, 0.2);
   -moz-transition: all 0.3s linear;
   -o-transition: all 0.3s linear;
@@ -50,7 +43,7 @@
   transition: all 0.3s linear;
 }
 
-.fivth-content input {
+.contact-content input {
   margin-bottom: 20px;
   padding-left: 15px;
   max-width: 100%;
@@ -66,12 +59,12 @@
   box-shadow: none;
 }
 
-.fivth-content input:focus {
+.contact-content input:focus {
   outline: none !important;
   box-shadow: none;
 }
 
-.fivth-content textarea {
+.contact-content textarea {
   margin-bottom: 20px;
   padding-left: 15px;
   width: 100%;
@@ -89,12 +82,12 @@
   box-shadow: none;
 }
 
-.fivth-content textarea:focus {
+.contact-content textarea:focus {
   outline: none !important;
   box-shadow: none;
 }
 
-.fivth-content button {
+.contact-content button {
   display: inline-block;
   background-color: rgba(255, 187, 5, 0.2);
   color: #343434;
@@ -106,11 +99,18 @@
   margin-bottom: 0px;
 }
 
-.fivth-content button:hover {
+.contact-content button:hover {
   background-color: transparent;
   border: 1px solid rgba(255, 187, 5, 0.2);
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
   transition: all 0.2s linear;
+}
+
+@media (max-width: 850px) {
+  .contact-content .left-info .social-icons {
+    margin-top: 30px;
+    margin-bottom: 60px;
+  }
 }

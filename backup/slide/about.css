@@ -1,0 +1,75 @@
+.about-slide img {
+  width: 100%;
+  overflow: hidden;
+}
+
+.about-slide .left-image {
+  padding-right: 0px !important;
+}
+
+.about-slide .right-image {
+  padding-left: 0px !important;
+}
+
+.about-slide .right-about-text {
+  text-align: left;
+  margin-left: 15px;
+  margin-right: 30px;
+}
+
+.about-slide .right-about-text h4 {
+  font-size: 25px;
+  /* color: #121212; */
+  color: rgba(242, 242, 242, 0.95);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.about-slide .right-about-text .primary-button {
+  margin-top: 25px;
+}
+
+.about-slide .left-about-text {
+  text-align: left;
+  margin-left: 15px;
+  margin-left: 30px;
+}
+
+.about-slide .left-about-text h4 {
+  font-size: 25px;
+  /* color: #121212; */
+  color: rgba(242, 242, 242, 0.95);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-top: 30px;
+  margin-bottom: 25px;
+}
+
+.about-slide .left-about-text .primary-button {
+  margin-top: 25px;
+}
+
+@media (max-width: 850px) {
+  .about-slide .left-image {
+    padding-right: 15px !important;
+  }
+
+  .about-slide .right-image {
+    padding-left: 15px !important;
+  }
+
+  .about-slide .right-about-text {
+    text-align: left;
+    margin-left: 15px;
+    margin-left: 30px;
+  }
+
+  .about-slide .left-about-text {
+    text-align: left;
+    margin-left: 0px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+  }
+}
