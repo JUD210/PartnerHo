@@ -1,3 +1,24 @@
+/* sub_table */
+.welcome-content .info_table {
+  width: 500px;
+  margin: auto;
+}
+.welcome-content .info_table th {
+  border: 2px solid rgba(242, 242, 242, 0.95);
+  color: rgba(242, 242, 242, 0.95);
+  font-weight: bold;
+  padding: 7px;
+  font-size: 16px;
+  text-align: center;
+}
+.welcome-content .info_table td {
+  padding: 7px;
+  border: 2px solid rgba(242, 242, 242, 0.95);
+  color: rgba(242, 242, 242, 0.95);
+  font-size: 16px;
+  text-align: left;
+}
+
 .welcome-slide {
   text-align: center;
 }
@@ -7,12 +28,18 @@
 }
 
 .welcome-content {
-  padding: 60px 0px;
+  padding: 50px 0px;
+}
+
+.welcome-content hr {
+  border-top-color: rgba(255, 215, 0, 0.3);
+  border-top-width: 2px;
+  margin: 30px 5%;
 }
 
 .welcome-content img {
-  width: 100%;
-  padding: 0px 5% 60px 5%;
+  width: 90%;
+  padding: 0px 5% 20px 5%;
 }
 
 .welcome-content h4 {
@@ -25,7 +52,7 @@
 }
 
 .welcome-content p {
-  margin: 0px 120px;
+  margin: 0px 90px;
 }
 
 .welcome-content .primary-button {
@@ -33,6 +60,15 @@
 }
 
 @media (max-width: 850px) {
+  .welcome-content .info_table {
+    width: 90%;
+    margin: auto;
+  }
+
+  .welcome-content img {
+    width: 100%;
+  }
+
   .welcome-content h4 {
     margin-left: 15px;
     margin-right: 15px;
