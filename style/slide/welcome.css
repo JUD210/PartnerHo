@@ -1,24 +1,3 @@
-/* sub_table */
-.welcome-content .info_table {
-  width: 500px;
-  margin: auto;
-}
-.welcome-content .info_table th {
-  border: 2px solid rgba(242, 242, 242, 0.95);
-  color: rgba(242, 242, 242, 0.95);
-  font-weight: bold;
-  padding: 7px;
-  font-size: 16px;
-  text-align: center;
-}
-.welcome-content .info_table td {
-  padding: 7px;
-  border: 2px solid rgba(242, 242, 242, 0.95);
-  color: rgba(242, 242, 242, 0.95);
-  font-size: 16px;
-  text-align: left;
-}
-
 .welcome-slide {
   text-align: center;
 }
@@ -42,8 +21,12 @@
   padding: 0px 5% 20px 5%;
 }
 
+.welcome-content {
+  padding: 50px 0px;
+}
+
 .welcome-content h4 {
-  font-size: 35px;
+  font-size: 40px;
   text-transform: uppercase;
   color: rgba(242, 242, 242, 0.95);
   letter-spacing: 1px;
@@ -55,14 +38,44 @@
   margin: 0px 90px;
 }
 
+.welcome-content .info-table {
+  width: 600px;
+  margin: auto;
+}
+.welcome-content .info-table th {
+  color: rgba(242, 242, 242, 0.95);
+  font-size: 20px;
+  text-align: center;
+  border: 2px solid rgba(242, 242, 242, 0.95);
+  padding: 7px 12px;
+}
+.welcome-content .info-table td {
+  color: rgba(242, 242, 242, 0.95);
+  font-size: 20px;
+  text-align: left;
+  border: 2px solid rgba(242, 242, 242, 0.95);
+  padding: 7px;
+}
+
+.welcome-content .name-card h4,
+.welcome-content .name-card p {
+  font-size: 40px;
+}
+
 .welcome-content .primary-button {
   margin-top: 30px;
 }
 
 @media (max-width: 850px) {
-  .welcome-content .info_table {
+  .welcome-content .info-table {
     width: 90%;
     margin: auto;
+  }
+
+  .welcome-content .info-table th,
+  .welcome-content .info-table td {
+    padding: 7px;
+    font-size: 16px;
   }
 
   .welcome-content img {
@@ -75,6 +88,6 @@
   }
 
   .welcome-content p {
-    margin: 0px 30px;
+    margin: 0px 20px;
   }
 }

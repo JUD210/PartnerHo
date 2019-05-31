@@ -91,6 +91,7 @@
   line-height: 100px;
   border-radius: 50%;
   background-color: rgba(255, 187, 5, 0.2);
+  box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.8);
 }
 
 .cd-slider-nav .image-icon img {

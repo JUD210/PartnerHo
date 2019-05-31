@@ -3,6 +3,8 @@ body {
 }
 
 p {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.7);
+  
   font-size: 22px;
   color: rgba(242, 242, 242, 0.95);
   font-weight: 300;
@@ -10,6 +12,8 @@ p {
 }
 
 h4 {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.7);
+  
   font-size: 35px;
   text-transform: uppercase;
   color: rgba(242, 242, 242, 0.95);
@@ -19,6 +23,8 @@ h4 {
 }
 
 .heading {
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.7);
+
   text-align: center;
   margin-bottom: 70px;
 }
@@ -33,7 +39,7 @@ h4 {
 }
 
 .heading span {
-  font-size: 30px;
+  font-size: 23px;
   text-transform: uppercase;
   color: rgba(255, 187, 5, 1);
   font-weight: 300;
@@ -42,16 +48,15 @@ h4 {
 
 .content {
   margin-bottom: 50px;
-  /* margin-top: -80px; */
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(0, 0, 0, 0.25);
   border-top: 2px solid rgba(255, 187, 5, 1);
-  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.7);
 }
 
 .primary-button a {
   display: inline-block;
-  background-color: rgba(255, 187, 5, 0.2);
-  color: #343434;
+  background-color: rgba(255, 187, 5, 0.9);
+  color: black;
   font-size: 13px;
   padding: 12px 18px;
   border-radius: 3px;
@@ -61,7 +66,7 @@ h4 {
 
 .primary-button a:hover {
   background-color: transparent;
-  border: 1px solid rgba(255, 187, 5, 0.2);
+  border: 1px solid rgba(255, 187, 5, 0.9);
   -moz-transition: all 0.2s linear;
   -o-transition: all 0.2s linear;
   -webkit-transition: all 0.2s linear;
@@ -94,4 +99,17 @@ video::-webkit-media-controls {
   height: 100%;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+@media (max-width: 850px) {
+  p {
+    font-size: 20px;
+  }
+
+  .content {
+    margin-bottom: 50px;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-top: 2px solid rgba(255, 187, 5, 1);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+  }
 }
