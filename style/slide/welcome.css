@@ -11,12 +11,12 @@
 }
 
 .welcome-content hr {
-  border-top-color: rgba(255, 215, 0, 0.3);
+  border-top-color: rgba(255, 215, 0, 0.4);
   border-top-width: 2px;
   margin: 30px 5%;
 }
 
-.welcome-content img {
+.welcome-content .normal-img {
   width: 90%;
   padding: 0px 5% 20px 5%;
 }
